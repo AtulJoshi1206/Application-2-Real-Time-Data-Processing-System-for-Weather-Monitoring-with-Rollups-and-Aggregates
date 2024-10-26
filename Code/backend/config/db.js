@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("atuljoshi120:<Gr5mM4XEcI68SGtz>@weatherdb.uxofl.mongodb.net/?retryWrites=true&w=majority&appName=WeatherDB", {
+    await mongoose.connect("atuljoshi1206/.... // key", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
