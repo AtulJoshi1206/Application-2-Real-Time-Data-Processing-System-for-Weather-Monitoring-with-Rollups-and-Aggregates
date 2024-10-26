@@ -106,7 +106,7 @@ npm start
 ```
 
 ### ✉️ Alerts
-Alerts are sent to **atul.joshi1206@gmail.com** and **+918218938410** when thresholds are breached.
+Alerts are sent to **atul.joshi1206@gmail.com** and **+918218XXXXX** when thresholds are breached.
 
 ---
 ![WhatsApp Image 2024-10-26 at 12 50 38_29633c7d](https://github.com/user-attachments/assets/95513c53-b10e-4dd1-98a9-1abc29fab6de)
