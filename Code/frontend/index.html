@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Monitoring Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Real-Time Weather Monitoring</h1>
+    <p>Get the latest weather updates and historical summaries</p>
+  </header>
+
+  <!-- Current Weather Section -->
+  <section id="current-weather">
+    <h2>Current Weather</h2>
+    <div class="weather-info">
+      <div class="city-info">
+        <p id="city-name">City: Loading...</p>
+        <p id="condition">Condition: Clear</p>
+      </div>
+      <div class="temperature-info">
+        <p id="temp">Temperature: -- °C</p>
+        <p id="feels-like">Feels Like: -- °C</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Daily Summary Section -->
+  <section id="daily-summary">
+    <h2>Daily Summary</h2>
+    <div id="summary-list">
+      <!-- Each day's summary will be added here dynamically -->
+    </div>
+  </section>
+
+  <!-- Alert History Section -->
+  <section id="alert-history">
+    <h2>Alert History</h2>
+    <div id="alert-list">
+      <!-- Alerts will be displayed here -->
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
